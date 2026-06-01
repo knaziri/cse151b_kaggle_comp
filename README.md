@@ -35,7 +35,13 @@ uv venv .venv --seed --clear
     antlr4-python3-runtime==4.11.1 ipykernel jupyter
 ```
 
-### 2. Place the dataset
+### 2. Activate the virtual environment
+
+```bash
+source .venv/bin/activate
+```
+
+### 3. Place the dataset
 
 Put the private test file at:
 
