@@ -17,13 +17,6 @@ If you want to pre-download or use a local copy, place the model directory at a 
 MODEL_ID = "/path/to/Qwen3-4B-Thinking-2507"
 ```
 
-The default Hugging Face cache is `~/.cache/huggingface/hub/`. To redirect it, set the environment variable before launching the notebook:
-
-```bash
-export HF_HOME=/your/storage/path
-jupyter notebook cse151b_comp.ipynb
-```
-
 ## Reproducing Results
 
 ### 1. Install dependencies
